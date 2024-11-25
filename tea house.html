@@ -9,10 +9,10 @@
 <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header class="container mx-auto">
-        <div class="hero">
-                <div class="hero-content lg:flex-row flex-col">
-                <div>
+    <header class="container mx-auto py-7">
+        <div class="">
+                <div class=" flex lg:flex-row flex-col ">
+                <div class="">
                 <h1 class="text-7xl font-bold">
                     It's good tea time at The Tea House
                 </h1>
@@ -27,16 +27,15 @@
                 <div>
                     <img
               src="images/banner.png"
-              class="max-w-sm rounded-lg shadow-1xl h-[400px] w-[600px]" />
+              class=" rounded-lg shadow-1xl" />
               <div class="items-center mb-9 -mt-28 bg-white w-32  drop-shadow-lg ml-32">
-                <div>
-
-                </div>
-                <div class="">
-                    <h3 class="text-3xl">5.00</h3>
-                    <p>Trust Pilot Ratings</p>
-                </div>
+                <div class="px-4 ">
+                  <h3 class="text-3xl">5.00</h3>
+                    <p>jakaria tea </p>
+                    </div>
+                    <img src="images/arrow.png" alt="">
               </div>
+             
                 </div>
             </div>
           </div>
@@ -260,7 +259,7 @@
       </section>
     </main>
 
-    <footer class="mx-auto   bg-white text-base-content p-10 ">
+    <footer class="lg:px-48 px-4 p-24 lg:flex-cols-4 flex-cols-2  bg-white text-base-content p-10 ">
       <div class="flex justify-between bg-white p-5 text-black">
         <img src="images/cup.png" alt="">
         <p class="5">
@@ -302,14 +301,42 @@
                     <input
                       type="text"
                       placeholder="username@site.com"
-                      class="input input-bordered join-item" />
-                    <button class="btn btn-primary join-item">Subscribe</button>
+                      class="bg-transparent border-b-2 border-black" />
+                    <button class="btn btn-primary join-item">
+                      
+                    </button>
                   </div>
                 </fieldset>
               </div>
         </div>
         <aside class="text-center py-20">
-          <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+          <div class="diff h-96  p-11">
+            <div class="diff-item-1">
+              <div class="bg-primary text-primary-content grid place-content-center text-5xl font-black">
+                <p>Copyright © {new Date().getFullYear()} - 
+                  <label class="swap swap-flip text-5xl inline">
+                    <!-- this hidden checkbox controls the state -->
+                    <input type="checkbox" />
+                  
+                    <div class="swap-on">😈</div>
+                    <div class="swap-off">😇</div>
+                  </label>
+                </p>
+              </div>
+            </div>
+            <div class="diff-item-2">
+              <div class="bg-base-200 grid place-content-center text-5xl font-black">
+                <label class="swap swap-flip text-5xl inline">
+                  <!-- this hidden checkbox controls the state -->
+                  <input type="checkbox" />
+                
+                  <div class="swap-on">😈</div>
+                  <div class="swap-off">😇</div>
+                </label>
+                plasse open thes's berien</div>
+            </div>
+            <div class="diff-resizer"></div>
+          </div>
         </aside>
     </footer>
 
